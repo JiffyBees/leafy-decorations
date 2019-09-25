@@ -3,8 +3,8 @@ html {
 }
 
 .masthead {
-  border-top: 2px solid #2d5a4d;
-  border-bottom: 2px solid #2d5a4d;
+  border-top: 3px solid #2d5a4d;
+  border-bottom: 3px solid #2d5a4d;
   background-color: #588477;
   background-image: url("../images/leaf-bg.svg");
   background-repeat: repeat;
@@ -38,17 +38,19 @@ html {
 }
 
 .banner {
-  background-image: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0));
-  background-image: url("../images/banner.jpg");
+  background: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)), url("../images/banner.jpg");
+  background: linear-gradient(to top, rgba(16, 52, 41, .6), rgba(16, 52, 41, 0)), url("../images/banner.jpg");
+  background-position: center bottom;
   background-size: cover;
+  border-bottom: 3px solid #2d5a4d;
 }
 
 .banner-content {
-  padding-top: 400px;
+  padding-top: 300px;
   color: #fff;
   background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
-  background-position: 10px 275px;
+  background-position: 10px 180px;
   background-size: 100px auto;
 }
 
